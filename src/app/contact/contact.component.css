@@ -1,0 +1,15 @@
+#contact .form-control{
+  background-color:pink;
+  border-color: brown;
+  color: black;
+}
+#contact .form-control:focus{
+  border-color: blueviolet;
+  box-shadow:none ;
+}
+#contact .form-control::placeholder {
+color:grey;
+}
+#contact input.form-control{
+height:44px ;
+}
