@@ -1,2 +1,6 @@
+.portfolio-box .portfolio-img{
+  position: relative;
+  border: 2px solid var(--dark-purple);
 
+}
 

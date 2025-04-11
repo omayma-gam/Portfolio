@@ -1,18 +1,134 @@
-<div class="section">
+<section class="about py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #f1e9ee 100%);">
   <div class="container">
-    <div  class="content-section" >
-    <div class="title">
-      <h1>About Us</h1>
-    </div>
-    <div class="content">
-      <h3>uuuuuuuuuuuuuuuuuuuuuuuuuuuu
-      uuuuuuuuuuuuuuuuuuuuuuu
-      uuuuuuuuuuuuu
-      </h3>
+    <div class="row g-5 align-items-center">
+      <!-- Content Column (Now First) -->
+      <div class="col-lg-7">
+        <div class="pe-lg-4">
+          <span style="color: #d14d72; font-size: 1.1rem; letter-spacing: 3px; font-weight: 500; text-transform: uppercase;">
+            Découvrez
+          </span>
+          <h2 style="font-family: 'Playfair Display', serif; font-weight: 800; color: #2b2d42; font-size: 2.8rem; line-height: 1.2; margin-top: 0.5rem; margin-bottom: 1.5rem;">
+            À Propos de Moi
+          </h2>
 
+          <div class="bio mb-5" style="color: #5c5d67; line-height: 1.8; font-size: 1.05rem;">
+            <p>
+              Je m'appelle <span class="fw-bold" style="color: #2b2d42;">OMAYMA GAMRANI</span>,
+              née le <span class="fw-semibold">14 mars 1999</span> à Ouaouizerth.
+              Actuellement résidente à Beni Mellal, j'ai obtenu mon baccalauréat SVT en 2017
+              avant de poursuivre mes études à la Faculté Polydisciplinaire de Beni Mellal.
+            </p>
+            <p>
+              Diplômée d'une licence en Droit Privé en langue française en 2023,
+              je me suis ensuite passionnée pour le développement informatique, orientant ma carrière vers les
+              technologies numériques et les solutions web innovantes.
+            </p>
+          </div>
+
+          <!-- Skills Section Redesigned -->
+          <h5 class="mb-4" style="color: #2b2d42; font-weight: 700; font-size: 1.25rem; letter-spacing: 0.5px;">
+            Mes Compétences Techniques
+          </h5>
+
+          <div class="skills mb-5">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <span style="font-weight: 600; color: #2b2d42; font-size: 1rem;">
+                      <i class="fab fa-html5 me-2" style="color: #d14d72;"></i>HTML/CSS
+                    </span>
+                    <span style="font-weight: 700; color: #d14d72;">80%</span>
+                  </div>
+                  <div class="progress" style="height: 6px; border-radius: 10px; background: #e9ecef;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%; background: #d14d72; border-radius: 10px;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <span style="font-weight: 600; color: #2b2d42; font-size: 1rem;">
+                      <i class="fab fa-java me-2" style="color: #d14d72;"></i>Java/JEE
+                    </span>
+                    <span style="font-weight: 700; color: #d14d72;">40%</span>
+                  </div>
+                  <div class="progress" style="height: 6px; border-radius: 10px; background: #e9ecef;">
+                    <div class="progress-bar" role="progressbar" style="width: 40%; background: #d14d72; border-radius: 10px;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <span style="font-weight: 600; color: #2b2d42; font-size: 1rem;">
+                      <i class="fab fa-js-square me-2" style="color: #d14d72;"></i>JavaScript
+                    </span>
+                    <span style="font-weight: 700; color: #d14d72;">30%</span>
+                  </div>
+                  <div class="progress" style="height: 6px; border-radius: 10px; background: #e9ecef;">
+                    <div class="progress-bar" role="progressbar" style="width: 30%; background: #d14d72; border-radius: 10px;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <span style="font-weight: 600; color: #2b2d42; font-size: 1rem;">
+                      <i class="fas fa-database me-2" style="color: #d14d72;"></i>MySQL
+                    </span>
+                    <span style="font-weight: 700; color: #d14d72;">40%</span>
+                  </div>
+                  <div class="progress" style="height: 6px; border-radius: 10px; background: #e9ecef;">
+                    <div class="progress-bar" role="progressbar" style="width: 40%; background: #d14d72; border-radius: 10px;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 mt-4">
+            <a routerLink="/contact" class="btn px-4 py-3"
+               style="background: #d14d72; color: white; border: none; border-radius: 8px;
+                      font-weight: 600; letter-spacing: 0.5px; transition: all 0.3s ease;
+                      box-shadow: 0 4px 15px rgba(209, 77, 114, 0.2);">
+              <i class="fas fa-paper-plane me-2"></i>
+              Me Contacter
+            </a>
+
+            <a href="#" class="btn px-4 py-3"
+               style="background: transparent; color: #2b2d42; border: 2px solid #2b2d42; border-radius: 8px;
+                      font-weight: 600; letter-spacing: 0.5px; transition: all 0.3s ease;">
+              <i class="fas fa-download me-2"></i>
+              Mon CV
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Column (Now Second) -->
+      <div class="col-lg-5">
+        <div class="position-relative">
+          <img src="assets/img2.jpg" alt="Omayma Gamrani"
+               class="img-fluid rounded-3 shadow-lg"
+               style="width: 100%; max-width: 420px; border: 8px solid white;
+                      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);">
+          <div class="position-absolute bottom-0 end-0 p-3 rounded-3 d-none d-md-block"
+               style="background-color: white; transform: translate(20%, 20%); z-index: 2;
+                      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); max-width: 50%;">
+            <div class="d-flex align-items-center">
+              <div style="width: 40px; height: 40px; border-radius: 50%; background-color: #d14d72;
+                          display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                <i class="fas fa-briefcase" style="color: white;"></i>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-  <br><br><br><br>
-
-</div>
+</section>

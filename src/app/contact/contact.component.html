@@ -1,34 +1,47 @@
-<section id="contact" class="full-height px-lg-5">
+<section id="contact" class="full-height px-lg-5" style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%); padding: 80px 0;">
   <div class="container">
-
     <div class="row justify-content-center text-center pb-4" data-aos="fade-up">
       <div class="col-lg-8 pb-4">
-        <h6 class="text-brand"> CONTACT</h6>
-        <h1>Welcome</h1>
+        <h6 class="text-brand" style="color: #6c63ff; letter-spacing: 2px; font-size: 1rem; text-transform: uppercase; margin-bottom: 15px;">CONTACT</h6>
+        <h1 style="font-weight: 700; color: #2d3748; font-size: 2.5rem; margin-bottom: 20px;">Get In Touch</h1>
+        <p style="color: #718096; font-size: 1.1rem;">We'd love to hear from you! Send us a message.</p>
       </div>
       <div class="col-lg-8">
         <form action="" class="row g-lg-3 gy-3">
           <div class="form-group col-md-6">
-            <input type="text" class="form-control" placeholder="Entrer votre nom">
+            <input type="text" class="form-control" placeholder="Enter your name"
+                   style="padding: 15px; border-radius: 8px; border: 1px solid #e2e8f0;
+                          background: white; transition: all 0.3s ease; box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+                          &:focus { border-color: #6c63ff; outline: none; box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1); }">
           </div>
           <div class="form-group col-md-6">
-            <input type="email" class="form-control" placeholder="Entrer votre email">
+            <input type="email" class="form-control" placeholder="Enter your email"
+                   style="padding: 15px; border-radius: 8px; border: 1px solid #e2e8f0;
+                          background: white; transition: all 0.3s ease; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
           </div>
           <div class="form-group col-12">
-            <input type="text" class="form-control" placeholder="Entrer votre sujet">
+            <input type="text" class="form-control" placeholder="Enter subject"
+                   style="padding: 15px; border-radius: 8px; border: 1px solid #e2e8f0;
+                          background: white; transition: all 0.3s ease; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
           </div>
           <div class="form-group col-12">
-            <textarea name="" id="" rows="4" class="form-control" placeholder="Entrer votre message"></textarea>
+            <textarea name="" id="" rows="4" class="form-control" placeholder="Your message"
+                      style="padding: 15px; border-radius: 8px; border: 1px solid #e2e8f0;
+                             background: white; transition: all 0.3s ease; box-shadow: 0 1px 2px rgba(0,0,0,0.05);"></textarea>
           </div>
           <div class="form-group col-12 d-grid">
-          <button style="background-color: gold" type="submit" class="btn btn-brand">Contact me</button>
+            <button type="submit" class="btn btn-brand"
+                    style="background: linear-gradient(135deg, #6c63ff 0%, #4a42d6 100%);
+                           color: white; font-weight: 600; padding: 15px; border-radius: 8px;
+                           border: none; transition: all 0.3s ease; text-transform: uppercase;
+                           letter-spacing: 1px; box-shadow: 0 4px 6px rgba(108, 99, 255, 0.2);
+                           &:hover { transform: translateY(-2px); box-shadow: 0 6px 12px rgba(108, 99, 255, 0.25); }">
+              Send Message
+            </button>
           </div>
-
-
         </form>
       </div>
     </div>
   </div>
-  <br><br><br><br>
-
 </section>
+<app-footer></app-footer>
